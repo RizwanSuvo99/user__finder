@@ -1,0 +1,16 @@
+/* ==========< Media Queries for Mobile Devices >========== */
+@media (max-width: 480px) {
+}
+
+/* ==========< Media Queries for iPads & tablets >========== */
+@media (max-width: 768px) {
+  .search--box {
+    flex-direction: column;
+  }
+  .search--box .userInput {
+    min-width: 20rem;
+  }
+  .search--box #searchUserBtn:hover {
+    transform: translateY(-5px);
+  }
+}
